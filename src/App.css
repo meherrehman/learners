@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* NAVBAR */
+
+.navbarBox {
+  background-color: #E50914;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.navItems {
+  font-family: 'Finlandica', sans-serif;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.navItemsBtn {
+  font-family: 'Finlandica', sans-serif;
+  margin: 0px 10px;
+  cursor: pointer;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.navItemsBtn:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.logoText {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 3em;
+}
+
+.navSearch {
+  width: 80%;
+  padding: 4px;
+  outline: none;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.navSearchBtn {
+  background-color: #E50914;
+  padding: 6px;
+  font-family: 'Finlandica', sans-serif;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.cartSection {
+  position: relative;
+  cursor: pointer;
+}
+
+.cartQuantity {
+  position: absolute;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-family: 'Finlandica', sans-serif;
+  top: -25px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+.userImg {
+  cursor: pointer;
+}
+
+/* NAVBAR END */
+
+/* MAINAREA */
+
+.mainAreaQuote {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.mainAreaBtn {
+  background-color: #E50914;
+  font-family: 'Finlandica', sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  border-radius: 0px 10px 0px 10px;
+}
+
+/* MAINAREA END */
+
+/* POPULAR COURSES */
+
+.popularCoursesHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.popularCoursesHeaderInner {
+  color: #E50914;
+  font-size: 1.5em;
+}
+
+.popularCoursesBox {
+  background-color: white;
+  color: black;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 2px solid #E50914;
+  transition-duration: 0.3s;
+  width: 289.58px;
+}
+
+.popularCoursesBox:hover {
+  background-color: #E50914;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.popularCoursesBox p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Finlandica', sans-serif;
+}
+
+.mainAreaContentHeader {
+  font-weight: bolder;
+}
+
+.popularCoursesFooter {
+  background-color: #E50914;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.popularCoursesFooterHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 4em;
+}
+
+.popularCoursesFooterHeaderInner {
+  color: black;
+}
+
+.popularCoursesFooterBtn {
+  background-color: black;
+  font-family: 'Finlandica', sans-serif;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: white;
+  border-radius: 0px 10px 0px 10px;
+}
+
+/* POPULAR COURSES END */
+
+
+/* ALL COURSES */
+
+.allCoursesHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.allCoursesHeaderInner {
+  color: #E50914;
+  font-size: 1.5em;
+}
+
+.searchItem {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 0px 3px;
+  font-family: 'Finlandica', sans-serif;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+}
+
+.searchItem:hover {
+  background-color: #E50914;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.searchItem1 {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 0px 3px;
+  font-family: 'Finlandica', sans-serif;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+  background-color: #E50914;
+  color: white;
+}
+
+.AllCoursesBox {
+  width: 350px;
+  margin: 3px;
+  height: 450px;
+  background-color: #E50914;
+  font-family: 'Finlandica', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.imgSection {
+  height: 200px;
+}
+
+.AllCourseImg {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.allCoursesCategory {
+  background-color: black;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.allCoursesTitle {
+  font-size: 1.5em;
+}
+
+.allCoursesBuyBtn {
+  background-color: black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.instructorName {
+  background-color: black;
+  margin: 0px 10px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+/* ALL COURSES END */
+
+
+/* SERVICES */
+
+.servicesHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.servicesHeaderInner {
+  color: #E50914;
+  font-size: 1.5em;
+}
+
+.serviceItem {
+  background-color: #E50914;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* SERVICES END */
+
+/* FAQS */
+
+.faqsHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.faqsHeaderInner {
+  color: #E50914;
+  font-size: 1.5em;
+}
+
+/* FAQS END */
+
+/* CONTACT */
+
+.contactHeader {
+  font-family: 'Finlandica', sans-serif;
+  font-size: 2em;
+}
+
+.contactHeaderInner {
+  color: #E50914;
+  font-size: 1.5em;
+}
+
+.ContactBox {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contactField {
+  width: 100%;
+}
+
+.commentField {
+  background-color: #E50914;
+}
+
+.contactBtn {
+  border: none;
+  outline: none;
+  background-color: #E50914;
+  color: white;
+  font-family: 'Finlandica', sans-serif;
+  padding: 10px;
+  margin: 2px;
+  width: 90px;
+  border-radius: 40px;
+}
+
+/* CONTACT END */
+
+.footerBox {
+  background-color: #E50914;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .mainAreaQuote {
+    font-size: 1.2em;
+  }
+
+  .popularCoursesHeader {
+    font-size: 1.2em;
+  }
+
+  .popularCoursesFooterHeader {
+    font-size: 2em;
+  }
+
+  .allCoursesHeader {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .navbarBox {
+    padding: 10px 0px;
+  }
+
+  .popularCoursesFooterHeader {
+    font-size: 1em;
+  }
+
+  .searchItem1 {
+    font-size: 0.8em;
+  }
+
+  .searchItem {
+    font-size: 0.8em;
+  }
+
+}
