@@ -12,7 +12,7 @@ const AllCoursesComp = ({ imgSrc, category, lectures, title, instructorName, pri
             </div>
             <div className="row my-1">
                 <div className="col justify-content-center align-items-center">
-                    <img src="https://img.icons8.com/cotton/32/000000/rating.png" />
+                    <img src="https://img.icons8.com/cotton/32/000000/rating.png" alt="ratingImg"/>
                     <span>{rating}</span>
                 </div>
             </div>
